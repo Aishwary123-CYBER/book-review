@@ -1,0 +1,14 @@
+1 make html front page
+2 edit it with some css
+3 add some javascript into it
+4 make login page
+5 add css to login page
+6 after making login page redirect to homepage welcoming about login
+7 make content page
+8 add different books to content page threw api
+9 add css to it
+10 by clicking any book, review page appears which will also contain feedback information
+11 add css to review page
+12 after giving feedback it will redirect to thankyou page 
+add css to it
+

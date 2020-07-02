@@ -1,0 +1,43 @@
+  
+{% extends "layout.html" %}
+{% block content %}
+<div class="container-search">
+  <a class="a-s" href="/search">Back To Search</a>
+  <div class="con-2">
+    <div class="con-3">
+      <table>
+      <thead class="t-headbody">
+        <tr>
+          <th scope="col">ISBN</th>
+          <th scope="col">Title</th>
+          <th scope="col">Author</th>
+        </tr>
+      </thead>
+      <tbody class="t-headbody">
+        {% for item in result %}
+        <tr>
+          <td>{{item.isbn}}</td>
+          <td>{{item.title}}</td>
+          <td>{{item.author}}</td>
+          <td><a href= "details/{{item.bookid}}">Details</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+      </table>
+    </div>
+    </div>
+    <div class="col-md-6 col-sm-0">
+
+</div>
+</div>
+
+
+ <footer>
+      <div class="foot-search">
+         <p> copyright &copy; www.ibookreview.com.All rights reserve</p>
+
+
+      </div>
+  </footer>
+
+{% endblock %}
