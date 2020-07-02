@@ -1,1 +1,2 @@
 # book-review
+This is the book review website i created with flask html css python And sqlite3 database which consisting of functionality of reviewing books by api and also contain feature of searching books by their name title isbn and finding books by its isbn and it will give all information just by isbn this project is devloped by me with no guidance and self study of finding different ways to make my project promising althrough i know its not upto the mark but this is my second project and i will be upgrading it soon .
